@@ -25,7 +25,7 @@ describe ("SauceDemo standard user Login Test", () => {
       await LoginPage.positiveTest('error_user','secret_sauce')
       await LoginPage.positiveTest('visual_user','secret_sauce')
    
-    })
+    });
    
    
       describe("SauceDemo NegativeTest", () => {
